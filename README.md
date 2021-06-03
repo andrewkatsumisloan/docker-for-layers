@@ -5,7 +5,8 @@ AWS Layer requires software libraries to be compiled for Linux. If you download 
 
 Here are the steps to making an AWS Layer using Docker.
 
-Start by creating a Docker container running Ubuntu 20.04 and installing python3.8, and pip. This is already specified in the Dockerfile, so just run: 
+Start by creating a Docker container running Ubuntu 20.04 and installing python3.8, and pip. 
+This is already specified in the Dockerfile, so just run: 
 ```
 docker build -t [NAME OF IMAGE] .
 ```
